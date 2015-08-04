@@ -16,8 +16,16 @@ class String
         letter_values.push(score.fetch(one_pointers))
       elsif two_pointers.include?(letter)
         letter_values.push(score.fetch(two_pointers))
+      elsif three_pointers.include?(letter)
+        letter_values.push(score.fetch(three_pointers))
+      elsif four_pointers.include?(letter)
+        letter_values.push(score.fetch(four_pointers))
+      elsif five_pointers.include?(letter)
+        letter_values.push(score.fetch(five_pointers))
+      elsif eight_pointers.include?(letter)
+        letter_values.push(score.fetch(eight_pointers))
       else
-        "Didn't work"
+        letter_values.push(score.fetch(ten_pointers))
       end
     end
     letter_values

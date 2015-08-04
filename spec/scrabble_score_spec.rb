@@ -11,6 +11,6 @@ describe('String#scrabble_score') do
   end
 
   it("assigns a value to every letter in the word") do
-    expect(("aord").scrabble_score()).to(eq([1,1,1,2]))
+    expect(("wordbkxz").scrabble_score()).to(eq([4,1,1,2,3,5,8,10]))
   end
 end
