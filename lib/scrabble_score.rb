@@ -28,6 +28,6 @@ class String
         letter_values.push(score.fetch(ten_pointers))
       end
     end
-    letter_values
+    letter_values.inject(:+)
   end
 end
