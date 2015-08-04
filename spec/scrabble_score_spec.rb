@@ -9,4 +9,8 @@ describe('String#scrabble_score') do
   it("returns a value for the one point letters") do
     expect(("a").scrabble_score()).to(eq(1))
   end
+
+  it("assigns a value to every letter in the word") do
+    expect(("word").scrabble_score()).to(eq([4,1,1,2]))
+  end
 end
