@@ -2,25 +2,27 @@
 
 #####Gives you a score of your scrabble word, August 4, 2015
 
-####By Brigham Thompson & Justin Scott
+####By Brigham Thompson & Vaughn Dice
 
 ##Description
 
-It will take a word that is submitted and returns the total point scrabble score.
+A web page that  will take a word that is submitted and returns the total point scrabble score.
 
 ##Setup
 
-Download the GitHub repository
-Copy then paste into irb
+Clone the GitHub repository
+Run rspec
 
 ##Technologies Used
 
 Ruby
 rspec
+Sinatra
+Capybara
 
 ###Legal
 
-Copyright (c) 2015 Justin Scott & Brigham Thompson
+Copyright (c) 2015 Vaughn Dice & Brigham Thompson
 
 This software is licensed under the MIT license.
 
